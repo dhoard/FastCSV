@@ -55,8 +55,8 @@ Features
 - Support for field separator character in value (using the text delimiter)
 - Support for reading and writing in an iterative or all at once way
 - Support for skipping empty rows and preserving the original line number (useful for error messages)
-- Configurable to use an alternate String for null values
-- Configurable to use an alternate String for empty values
+- Configurable to use an alternate String for a null value
+- Configurable to use an alternate String for an empty value
 
 
 Requirements
