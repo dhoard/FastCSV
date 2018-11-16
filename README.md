@@ -19,13 +19,18 @@ Benchmark from the
 Latest release
 --------------
 
-The most recent release is 1.0.4-SNAPSHOT, released TBD, 2018.
+None.
+
+Latest snapshot
+--------------
+
+The most recent snapshot is 1.0.4-SNAPSHOT.
 
 To add a dependency using Maven, use the following:
 
 ```xml
 <dependency>
-    <groupId>TBD</groupId>
+    <groupId>com.github.dhoard</groupId>
     <artifactId>fastcsv</artifactId>
     <version>1.0.4-SNAPSHOT</version>
 </dependency>
@@ -35,7 +40,7 @@ To add a dependency using Gradle:
 
 ```gradle
 dependencies {
-    compile 'TBD:fastcsv:1.0.4-SNAPSHOT'
+    compile 'com.github.dhoard:fastcsv:1.0.4-SNAPSHOT'
 }
 ```
 
