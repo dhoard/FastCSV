@@ -35,7 +35,7 @@ To add a dependency using Gradle:
 
 ```gradle
 dependencies {
-    compile 'de.siegmar:fastcsv:1.0.4'
+    compile 'TBD:fastcsv:1.0.4'
 }
 ```
 
