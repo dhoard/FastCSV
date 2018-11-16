@@ -73,8 +73,6 @@ public final class CsvAppender implements Closeable, Flushable {
             newline = false;
         }
 
-        //System.out.println("v = [" + value + "}");
-
         if (value == null) {
             if (null != nullValue) {
                 if (alwaysDelimitText) {
