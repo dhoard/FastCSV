@@ -27,7 +27,7 @@ To add a dependency using Maven, use the following:
 <dependency>
     <groupId>TBD</groupId>
     <artifactId>fastcsv</artifactId>
-    <version>1.0.4</version>
+    <version>1.0.4-SNAPSHOT</version>
 </dependency>
 ```
 
@@ -35,7 +35,7 @@ To add a dependency using Gradle:
 
 ```gradle
 dependencies {
-    compile 'TBD:fastcsv:1.0.4'
+    compile 'TBD:fastcsv:1.0.4-SNAPSHOT'
 }
 ```
 
