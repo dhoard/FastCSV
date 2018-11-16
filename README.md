@@ -19,15 +19,15 @@ Benchmark from the
 Latest release
 --------------
 
-The most recent release is 1.0.4, released October 6, 2018.
+The most recent release is 1.0.4-SNAPSHOT, released TBD, 2018.
 
 To add a dependency using Maven, use the following:
 
 ```xml
 <dependency>
-    <groupId>de.siegmar</groupId>
+    <groupId>TBD</groupId>
     <artifactId>fastcsv</artifactId>
-    <version>1.0.4</version>
+    <version>1.0.4-SNAPSHOT</version>
 </dependency>
 ```
 
@@ -35,7 +35,7 @@ To add a dependency using Gradle:
 
 ```gradle
 dependencies {
-    compile 'de.siegmar:fastcsv:1.0.4'
+    compile 'TBD:fastcsv:1.0.4-SNAPSHOT'
 }
 ```
 
@@ -55,12 +55,14 @@ Features
 - Support for field separator character in value (using the text delimiter)
 - Support for reading and writing in an iterative or all at once way
 - Support for skipping empty rows and preserving the original line number (useful for error messages)
+- Configurable to use an alternate String for a null value
+- Configurable to use an alternate String for an empty value
 
 
 Requirements
 ------------
 
-- Java 7
+- Java 8
 
 
 CsvReader Examples
@@ -180,7 +182,8 @@ Contribution
 Copyright
 ---------
 
-Copyright 2018 Oliver Siegmar
+Copyright 2018 Oliver Siegmar   
+Copyright 2018 Doug Hoard  
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
