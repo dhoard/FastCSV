@@ -19,13 +19,13 @@ Benchmark from the
 Latest release
 --------------
 
-The most recent release is 1.0.4, released October 6, 2018.
+The most recent release is 1.0.4-SNAPSHOT, released TBD, 2018.
 
 To add a dependency using Maven, use the following:
 
 ```xml
 <dependency>
-    <groupId>de.siegmar</groupId>
+    <groupId>TBD</groupId>
     <artifactId>fastcsv</artifactId>
     <version>1.0.4</version>
 </dependency>
@@ -55,12 +55,13 @@ Features
 - Support for field separator character in value (using the text delimiter)
 - Support for reading and writing in an iterative or all at once way
 - Support for skipping empty rows and preserving the original line number (useful for error messages)
+- Support for using an alternate Strings to represent null / empty column values. (null vs empty column value)
 
 
 Requirements
 ------------
 
-- Java 7
+- Java 8
 
 
 CsvReader Examples
