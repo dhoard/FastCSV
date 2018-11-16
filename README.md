@@ -55,7 +55,7 @@ Features
 - Support for field separator character in value (using the text delimiter)
 - Support for reading and writing in an iterative or all at once way
 - Support for skipping empty rows and preserving the original line number (useful for error messages)
-- Support for using an alternate Strings to represent null / empty column values. (null vs empty column value)
+- Support for using an alternate Strings to represent null / empty column values
 
 
 Requirements
@@ -181,7 +181,8 @@ Contribution
 Copyright
 ---------
 
-Copyright 2018 Oliver Siegmar
+Copyright 2018 Oliver Siegmar   
+Copyright 2018 Doug Hoard  
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
